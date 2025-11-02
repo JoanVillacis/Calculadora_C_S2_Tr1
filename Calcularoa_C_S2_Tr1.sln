@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcularoa_C_S2_Tr1", "Calcularoa_C_S2_Tr1.csproj", "{50EF8090-AA25-4785-97F0-9EA395CBD1EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50EF8090-AA25-4785-97F0-9EA395CBD1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EF8090-AA25-4785-97F0-9EA395CBD1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EF8090-AA25-4785-97F0-9EA395CBD1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EF8090-AA25-4785-97F0-9EA395CBD1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAF36554-8F61-4A95-AF1E-011A85D19AC3}
+	EndGlobalSection
+EndGlobal
