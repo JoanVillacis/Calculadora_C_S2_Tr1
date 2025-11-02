@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -113,7 +113,7 @@ namespace Calcularoa_C_S2_Tr1
             catch (DivideByZeroException)
             {
                 txt_pantalla.Clear();
-                MessageBox.Show("Error: División por cero", "Error");
+                MessageBox.Show("Error: DivisiÃ³n por cero", "Error");
             }
             catch (Exception ex)
             {
@@ -122,12 +122,12 @@ namespace Calcularoa_C_S2_Tr1
             }
         }
 
-        // Manejador de teclas con caracteres (números, operadores, punto, porcentaje)
+        // Manejador de teclas con caracteres (nÃºmeros, operadores, punto, porcentaje)
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
             char c = e.KeyChar;
 
-            // Aceptar dígitos
+            // Aceptar dÃ­gitos
             if (char.IsDigit(c))
             {
                 txt_pantalla.AppendText(c.ToString());
@@ -135,7 +135,7 @@ namespace Calcularoa_C_S2_Tr1
                 return;
             }
 
-            // Aceptar punto decimal y también coma (se convierte a punto)
+            // Aceptar punto decimal y tambiÃ©n coma (se convierte a punto)
             if (c == '.' || c == ',')
             {
                 txt_pantalla.AppendText('.'.ToString());
@@ -143,7 +143,7 @@ namespace Calcularoa_C_S2_Tr1
                 return;
             }
 
-            // Operadores válidos: + - * / %
+            // Operadores vÃ¡lidos: + - * / %
             if (c == '+' || c == '-' || c == '*' || c == '/' || c == '%')
             {
                 txt_pantalla.AppendText(c.ToString());
@@ -159,7 +159,7 @@ namespace Calcularoa_C_S2_Tr1
         {
             if (e.KeyCode == Keys.Enter)
             {
-                // Usar el mismo manejador que el botón =
+                // Usar el mismo manejador que el botÃ³n =
                 btn_Igual_Click(btn_Igual, EventArgs.Empty);
                 e.Handled = true;
             }
@@ -202,7 +202,7 @@ namespace Calcularoa_C_S2_Tr1
 
         private void btn_C_Click(object sender, EventArgs e)
         {
-            // Eliminar el último carácter (backspace)
+            // Eliminar el Ãºltimo carÃ¡cter (backspace)
             if (!string.IsNullOrEmpty(txt_pantalla.Text))
             {
                 txt_pantalla.Text = txt_pantalla.Text.Substring(0, txt_pantalla.Text.Length -1);

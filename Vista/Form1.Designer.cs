@@ -88,7 +88,7 @@
             btn_Porcentaje.Margin = new Padding(6);
             btn_Porcentaje.Name = "btn_Porcentaje";
             btn_Porcentaje.Size = new Size(108, 81);
-            btn_Porcentaje.TabIndex = 4;
+            btn_Porcentaje.TabIndex = 3;
             btn_Porcentaje.Text = "%";
             btn_Porcentaje.UseVisualStyleBackColor = true;
             btn_Porcentaje.Click += btn_Porcentaje_Click;
@@ -100,7 +100,7 @@
             btn_Nueve.Margin = new Padding(6);
             btn_Nueve.Name = "btn_Nueve";
             btn_Nueve.Size = new Size(108, 81);
-            btn_Nueve.TabIndex = 8;
+            btn_Nueve.TabIndex = 7;
             btn_Nueve.Text = "9";
             btn_Nueve.UseVisualStyleBackColor = true;
             btn_Nueve.Click += btn_Nueve_Click;
@@ -112,7 +112,7 @@
             btn_AC.Margin = new Padding(6);
             btn_AC.Name = "btn_AC";
             btn_AC.Size = new Size(107, 81);
-            btn_AC.TabIndex = 7;
+            btn_AC.TabIndex = 1;
             btn_AC.Text = "AC";
             btn_AC.UseVisualStyleBackColor = true;
             btn_AC.Click += btn_AC_Click;
@@ -124,7 +124,7 @@
             btn_Siete.Margin = new Padding(6);
             btn_Siete.Name = "btn_Siete";
             btn_Siete.Size = new Size(107, 81);
-            btn_Siete.TabIndex = 6;
+            btn_Siete.TabIndex = 5;
             btn_Siete.Text = "7";
             btn_Siete.UseVisualStyleBackColor = true;
             btn_Siete.Click += btn_Siete_Click;
@@ -136,7 +136,7 @@
             btn_Seis.Margin = new Padding(6);
             btn_Seis.Name = "btn_Seis";
             btn_Seis.Size = new Size(108, 81);
-            btn_Seis.TabIndex = 12;
+            btn_Seis.TabIndex = 11;
             btn_Seis.Text = "6";
             btn_Seis.UseVisualStyleBackColor = true;
             btn_Seis.Click += btn_Seis_Click;
@@ -148,7 +148,7 @@
             btn_Cinco.Margin = new Padding(6);
             btn_Cinco.Name = "btn_Cinco";
             btn_Cinco.Size = new Size(107, 81);
-            btn_Cinco.TabIndex = 11;
+            btn_Cinco.TabIndex = 10;
             btn_Cinco.Text = "5";
             btn_Cinco.UseVisualStyleBackColor = true;
             btn_Cinco.Click += btn_Cinco_Click;
@@ -160,7 +160,7 @@
             btn_Cuatro.Margin = new Padding(6);
             btn_Cuatro.Name = "btn_Cuatro";
             btn_Cuatro.Size = new Size(107, 81);
-            btn_Cuatro.TabIndex = 10;
+            btn_Cuatro.TabIndex = 9;
             btn_Cuatro.Text = "4";
             btn_Cuatro.UseVisualStyleBackColor = true;
             btn_Cuatro.Click += btn_Cuatro_Click;
@@ -172,7 +172,7 @@
             btn_Uno.Margin = new Padding(6);
             btn_Uno.Name = "btn_Uno";
             btn_Uno.Size = new Size(107, 81);
-            btn_Uno.TabIndex = 14;
+            btn_Uno.TabIndex = 13;
             btn_Uno.Text = "1";
             btn_Uno.UseVisualStyleBackColor = true;
             btn_Uno.Click += btn_Uno_Click;
@@ -184,7 +184,7 @@
             btn_Dos.Margin = new Padding(6);
             btn_Dos.Name = "btn_Dos";
             btn_Dos.Size = new Size(107, 81);
-            btn_Dos.TabIndex = 15;
+            btn_Dos.TabIndex = 14;
             btn_Dos.Text = "2";
             btn_Dos.UseVisualStyleBackColor = true;
             btn_Dos.Click += btn_Dos_Click;
@@ -196,7 +196,7 @@
             btn_Tres.Margin = new Padding(6);
             btn_Tres.Name = "btn_Tres";
             btn_Tres.Size = new Size(108, 81);
-            btn_Tres.TabIndex = 16;
+            btn_Tres.TabIndex = 15;
             btn_Tres.Text = "3";
             btn_Tres.UseVisualStyleBackColor = true;
             btn_Tres.Click += btn_Tres_Click;
@@ -209,7 +209,7 @@
             btn_Suma.Margin = new Padding(6);
             btn_Suma.Name = "btn_Suma";
             btn_Suma.Size = new Size(104, 176);
-            btn_Suma.TabIndex = 17;
+            btn_Suma.TabIndex = 16;
             btn_Suma.Text = "+";
             btn_Suma.UseVisualStyleBackColor = true;
             btn_Suma.Click += btn_Suma_Click;
@@ -221,7 +221,7 @@
             btn_Igual.Margin = new Padding(6);
             btn_Igual.Name = "btn_Igual";
             btn_Igual.Size = new Size(108, 82);
-            btn_Igual.TabIndex = 20;
+            btn_Igual.TabIndex = 19;
             btn_Igual.Text = "=";
             btn_Igual.UseVisualStyleBackColor = true;
             btn_Igual.Click += btn_Igual_Click;
@@ -234,7 +234,7 @@
             btn_Punto.Margin = new Padding(6);
             btn_Punto.Name = "btn_Punto";
             btn_Punto.Size = new Size(107, 82);
-            btn_Punto.TabIndex = 19;
+            btn_Punto.TabIndex = 18;
             btn_Punto.Text = ".";
             btn_Punto.UseVisualStyleBackColor = true;
             btn_Punto.Click += btn_Punto_Click;
@@ -246,7 +246,7 @@
             btn_Cero.Margin = new Padding(6);
             btn_Cero.Name = "btn_Cero";
             btn_Cero.Size = new Size(107, 82);
-            btn_Cero.TabIndex = 18;
+            btn_Cero.TabIndex = 17;
             btn_Cero.Text = "0";
             btn_Cero.UseVisualStyleBackColor = true;
             btn_Cero.Click += btn_Cero_Click;
@@ -300,7 +300,7 @@
             btn_C.Margin = new Padding(6);
             btn_C.Name = "btn_C";
             btn_C.Size = new Size(107, 81);
-            btn_C.TabIndex = 21;
+            btn_C.TabIndex = 0;
             btn_C.Text = "C";
             btn_C.UseVisualStyleBackColor = true;
             btn_C.Click += btn_C_Click;
@@ -312,7 +312,7 @@
             btn_Ocho.Margin = new Padding(6);
             btn_Ocho.Name = "btn_Ocho";
             btn_Ocho.Size = new Size(107, 81);
-            btn_Ocho.TabIndex = 8;
+            btn_Ocho.TabIndex = 6;
             btn_Ocho.Text = "8";
             btn_Ocho.UseVisualStyleBackColor = true;
             btn_Ocho.Click += btn_Ocho_Click;
@@ -345,7 +345,7 @@
             btn_Resta.Margin = new Padding(6);
             btn_Resta.Name = "btn_Resta";
             btn_Resta.Size = new Size(104, 80);
-            btn_Resta.TabIndex = 9;
+            btn_Resta.TabIndex = 12;
             btn_Resta.Text = "-";
             btn_Resta.UseVisualStyleBackColor = true;
             btn_Resta.Click += btn_Resta_Click;
@@ -357,7 +357,7 @@
             btn_Multi.Margin = new Padding(6);
             btn_Multi.Name = "btn_Multi";
             btn_Multi.Size = new Size(104, 81);
-            btn_Multi.TabIndex = 9;
+            btn_Multi.TabIndex = 8;
             btn_Multi.Text = "X";
             btn_Multi.UseVisualStyleBackColor = true;
             btn_Multi.Click += btn_Multi_Click;
@@ -369,7 +369,7 @@
             btn_Div.Margin = new Padding(6);
             btn_Div.Name = "btn_Div";
             btn_Div.Size = new Size(104, 81);
-            btn_Div.TabIndex = 5;
+            btn_Div.TabIndex = 4;
             btn_Div.Text = "/";
             btn_Div.UseVisualStyleBackColor = true;
             btn_Div.Click += btn_Div_Click;

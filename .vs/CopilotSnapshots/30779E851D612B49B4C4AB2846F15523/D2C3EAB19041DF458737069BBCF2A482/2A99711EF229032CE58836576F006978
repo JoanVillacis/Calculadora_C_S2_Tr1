@@ -1,4 +1,4 @@
-using System;
+Ôªøusing System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,33 +17,23 @@ namespace Calcularoa_C_S2_Tr1.Controladores
             if (data == null)
                 throw new ArgumentNullException(nameof(data));
 
-        // Trabajar sobre copias del modelo original
+        // Trabajar sobre copias para no mutar el modelo original
         var numeros = new List<decimal>(data.Numeros);
         var operadores = new List<char>(data.Operadores);
 
-        // Manejar operador de porcentaje '%'
+        // Manejar operador de porcentaje '%' como operador unario que afecta al n√∫mero anterior
         for (int idx =0; idx < operadores.Count; idx++)
         {
             if (operadores[idx] == '%')
             {
-                if (idx ==0)
-                {
-                    // "%" aplicado al primer n˙mero: 
-                    if (numeros.Count >0)
-                        numeros[idx] = numeros[idx] /100m;
-                }
-                else
-                {
-                    // Base para el porcentaje es el n˙mero anterior en la lista
-                    if (idx -1 >=0 && idx < numeros.Count)
-                    {
-                        decimal base_valor = numeros[idx -1];
-                        decimal verdadero_valor = base_valor * numeros[idx] /100m;
-                        numeros[idx] = verdadero_valor;
-                    }
-                }
+                // Convertir numero anterior a su porcentaje (ej:50% ->0.5)
+                // Aqu√≠ asumimos que '%' se aplica al n√∫mero inmediatamente anterior
+                decimal baseValue = numeros[idx];
+                decimal porcentaje = numeros[idx] /100m;
 
-                // Remover el operador '%'
+                // Reemplazar el n√∫mero anterior por su porcentaje
+                numeros[idx] = porcentaje;
+                // Remover el operador '%' porque ya fue aplicado
                 operadores.RemoveAt(idx);
                 idx--;
             }
@@ -66,7 +56,7 @@ namespace Calcularoa_C_S2_Tr1.Controladores
             numeros[idx] = resultado;
             numeros.RemoveAt(idx +1);
             operadores.RemoveAt(idx);
-                idx--; // retroceder Ìndice para reevaluar en la nueva posiciÛn
+                idx--; // retroceder √≠ndice para reevaluar en la nueva posici√≥n
             }
         }
 

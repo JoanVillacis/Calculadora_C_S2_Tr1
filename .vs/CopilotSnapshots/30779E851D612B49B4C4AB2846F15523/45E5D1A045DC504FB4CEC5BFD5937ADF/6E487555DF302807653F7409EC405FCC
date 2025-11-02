@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +17,7 @@ namespace Calcularoa_C_S2_Tr1.Controladores
             if (data == null)
                 throw new ArgumentNullException(nameof(data));
 
-        // Trabajar sobre copias del modelo original
+        // Trabajar sobre copias para no mutar el modelo original
         var numeros = new List<decimal>(data.Numeros);
         var operadores = new List<char>(data.Operadores);
 
@@ -26,24 +26,14 @@ namespace Calcularoa_C_S2_Tr1.Controladores
         {
             if (operadores[idx] == '%')
             {
-                if (idx ==0)
-                {
-                    // "%" aplicado al primer número: 
-                    if (numeros.Count >0)
-                        numeros[idx] = numeros[idx] /100m;
-                }
-                else
-                {
-                    // Base para el porcentaje es el número anterior en la lista
-                    if (idx -1 >=0 && idx < numeros.Count)
-                    {
-                        decimal base_valor = numeros[idx -1];
-                        decimal verdadero_valor = base_valor * numeros[idx] /100m;
-                        numeros[idx] = verdadero_valor;
-                    }
-                }
+                // Convertir numero anterior a su porcentaje
+                // AquÃ­ asumimos que '%' se aplica al nÃºmero inmediatamente anterior
+                decimal Numero_base = numeros[idx];
+                decimal porcentaje = numeros[idx] /100m;
 
-                // Remover el operador '%'
+                // Reemplazar el nÃºmero anterior por su porcentaje
+                numeros[idx] = porcentaje;
+                // Remover el operador '%' porque ya fue aplicado
                 operadores.RemoveAt(idx);
                 idx--;
             }
@@ -66,7 +56,7 @@ namespace Calcularoa_C_S2_Tr1.Controladores
             numeros[idx] = resultado;
             numeros.RemoveAt(idx +1);
             operadores.RemoveAt(idx);
-                idx--; // retroceder índice para reevaluar en la nueva posición
+                idx--; // retroceder Ã­ndice para reevaluar en la nueva posiciÃ³n
             }
         }
 
