@@ -115,6 +115,7 @@
             btn_AC.TabIndex = 7;
             btn_AC.Text = "AC";
             btn_AC.UseVisualStyleBackColor = true;
+            btn_AC.Click += btn_AC_Click;
             // 
             // btn_Siete
             // 
@@ -302,6 +303,7 @@
             btn_C.TabIndex = 21;
             btn_C.Text = "C";
             btn_C.UseVisualStyleBackColor = true;
+            btn_C.Click += btn_C_Click;
             // 
             // btn_Ocho
             // 

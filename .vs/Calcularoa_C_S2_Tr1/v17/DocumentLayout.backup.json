@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|c:\\users\\usuario\\source\\repos\\clase poo ii\\semana 2\\tr2_s2\\calcularoa_c_s2_tr1\\controladores\\controlador_calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:controladores\\controlador_calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|c:\\users\\usuario\\source\\repos\\clase poo ii\\semana 2\\tr2_s2\\calcularoa_c_s2_tr1\\controladores\\controlador_guardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:controladores\\controlador_guardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|c:\\users\\usuario\\source\\repos\\clase poo ii\\semana 2\\tr2_s2\\calcularoa_c_s2_tr1\\modelos\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:modelos\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|c:\\users\\usuario\\source\\repos\\clase poo ii\\semana 2\\tr2_s2\\calcularoa_c_s2_tr1\\modelos\\guardar_numero_signo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:modelos\\guardar_numero_signo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|c:\\users\\usuario\\source\\repos\\clase poo ii\\semana 2\\tr2_s2\\calcularoa_c_s2_tr1\\vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|c:\\users\\usuario\\source\\repos\\clase poo ii\\semana 2\\tr2_s2\\calcularoa_c_s2_tr1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Vista\\Form1.cs",
+              "RelativeDocumentMoniker": "Vista\\Form1.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Vista\\Form1.cs",
+              "RelativeToolTip": "Vista\\Form1.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAASwDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T20:41:40.125Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T21:48:26.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Controlador_calculadora.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Controladores\\Controlador_calculadora.cs",
+              "RelativeDocumentMoniker": "Controladores\\Controlador_calculadora.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Controladores\\Controlador_calculadora.cs",
+              "RelativeToolTip": "Controladores\\Controlador_calculadora.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T20:57:27.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controlador_guardar.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Controladores\\Controlador_guardar.cs",
+              "RelativeDocumentMoniker": "Controladores\\Controlador_guardar.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Controladores\\Controlador_guardar.cs",
+              "RelativeToolTip": "Controladores\\Controlador_guardar.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAASwBQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T20:46:54.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculadora.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Modelos\\Calculadora.cs",
+              "RelativeDocumentMoniker": "Modelos\\Calculadora.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Modelos\\Calculadora.cs",
+              "RelativeToolTip": "Modelos\\Calculadora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T20:41:58.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Vista\\Form1.cs",
+              "RelativeDocumentMoniker": "Vista\\Form1.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Vista\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vista\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T20:41:33.812Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Guardar_numero_signo.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Modelos\\Guardar_numero_signo.cs",
+              "RelativeDocumentMoniker": "Modelos\\Guardar_numero_signo.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Modelos\\Guardar_numero_signo.cs",
+              "RelativeToolTip": "Modelos\\Guardar_numero_signo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T20:41:09.525Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

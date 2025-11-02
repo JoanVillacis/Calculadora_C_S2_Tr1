@@ -1,3 +1,15 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Calcularoa_C_S2_Tr1.Controladores;
+using System.Globalization;
+
 namespace Calcularoa_C_S2_Tr1
 {
     public partial class Form1 : Form
@@ -9,22 +21,18 @@ namespace Calcularoa_C_S2_Tr1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
-
         }
 
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
         {
-
         }
 
         private void btn_Siete_Click(object sender, EventArgs e)
@@ -84,7 +92,29 @@ namespace Calcularoa_C_S2_Tr1
 
         private void btn_Igual_Click(object sender, EventArgs e)
         {
-            txt_pantalla.AppendText("=");
+            string expr = txt_pantalla.Text;
+
+            try
+            {
+                var parser = new Controlador_guardar();
+                var calcCtrl = new Controlador_calculadora();
+                var parsed = parser.Parfrase_Expresion(expr);
+                decimal result = calcCtrl.Calcular_resultado(parsed);
+
+                // Limpiar antes de mostrar la respuesta
+                txt_pantalla.Clear();
+                txt_pantalla.AppendText(result.ToString(CultureInfo.InvariantCulture));
+            }
+            catch (DivideByZeroException)
+            {
+                txt_pantalla.Clear();
+                MessageBox.Show("Error: División por cero", "Error");
+            }
+            catch (Exception ex)
+            {
+                txt_pantalla.Clear();
+                MessageBox.Show("Error al calcular: " + ex.Message);
+            }
         }
 
         private void btn_Suma_Click(object sender, EventArgs e)
@@ -110,6 +140,22 @@ namespace Calcularoa_C_S2_Tr1
         private void btn_Porcentaje_Click(object sender, EventArgs e)
         {
             txt_pantalla.AppendText("%");
+        }
+
+        private void btn_C_Click(object sender, EventArgs e)
+        {
+            // Eliminar el último carácter (backspace)
+            if (!string.IsNullOrEmpty(txt_pantalla.Text))
+            {
+                txt_pantalla.Text = txt_pantalla.Text.Substring(0, txt_pantalla.Text.Length -1);
+                txt_pantalla.SelectionStart = txt_pantalla.Text.Length;
+            }
+        }
+
+        private void btn_AC_Click(object sender, EventArgs e)
+        {
+            // Clear all
+            txt_pantalla.Clear();
         }
     }
 }

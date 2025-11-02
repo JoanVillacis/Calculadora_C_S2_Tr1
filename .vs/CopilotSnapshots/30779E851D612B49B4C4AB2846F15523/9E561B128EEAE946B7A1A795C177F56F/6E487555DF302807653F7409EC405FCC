@@ -1,0 +1,69 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Calcularoa_C_S2_Tr1.Modelos;
+
+namespace Calcularoa_C_S2_Tr1.Controladores
+{
+ public class Controlador_calculadora
+ {
+ private readonly Calculadora _calc = new Calculadora();
+
+ // Calcula el resultado respetando precedencia: primero * y /, luego + y -
+ public decimal CalculateResult(Guardar_numero_signo data)
+ {
+ if (data == null)
+ throw new ArgumentNullException(nameof(data));
+
+ // Trabajar sobre copias para no mutar el modelo original
+ var nums = new List<decimal>(data.Numbers);
+ var ops = new List<char>(data.Operators);
+
+ // Primero multiplicaciones y divisiones
+ for (int i =0; i < ops.Count; i++)
+ {
+ if (ops[i] == '*' || ops[i] == '/')
+ {
+ decimal a = nums[i];
+ decimal b = nums[i +1];
+ decimal res;
+
+ if (ops[i] == '*')
+ res = _calc.Multiply(a, b);
+ else
+ res = _calc.Divide(a, b); // puede lanzar DivideByZeroException
+
+ nums[i] = res;
+ nums.RemoveAt(i +1);
+ ops.RemoveAt(i);
+ i--; // retroceder índice para reevaluar en la nueva posición
+ }
+ }
+
+ // Luego sumas y restas
+ for (int i =0; i < ops.Count; i++)
+ {
+ if (ops[i] == '+' || ops[i] == '-')
+ {
+ decimal a = nums[i];
+ decimal b = nums[i +1];
+ decimal res;
+
+ if (ops[i] == '+')
+ res = _calc.Add(a, b);
+ else
+ res = _calc.Subtract(a, b);
+
+ nums[i] = res;
+ nums.RemoveAt(i +1);
+ ops.RemoveAt(i);
+ i--;
+ }
+ }
+
+ return nums.Count >0 ? nums[0] :0m;
+ }
+ }
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Calcularoa_C_S2_Tr1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+727f6731bed60ffacc589ffc657fcf21c98f48ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92da72ed4ff72ddeeb2692c9772775b0ba6a9d5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Calcularoa_C_S2_Tr1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Calcularoa_C_S2_Tr1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

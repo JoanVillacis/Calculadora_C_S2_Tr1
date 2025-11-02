@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Calcularoa_C_S2_Tr1.Modelos
+{
+    public class Calculadora
+    {
+        public decimal Add(decimal a, decimal b) => a + b;
+        public decimal Subtract(decimal a, decimal b) => a - b;
+        public decimal Multiply(decimal a, decimal b) => a * b;
+        public decimal Divide(decimal a, decimal b)
+        {
+            if (b ==0)
+                throw new DivideByZeroException("División por cero.");
+            return a / b;
+        }
+    }
+}
