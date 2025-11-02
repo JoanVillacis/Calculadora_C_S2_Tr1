@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|c:\\users\\usuario\\source\\repos\\clase poo ii\\semana 2\\tr2_s2\\calcularoa_c_s2_tr1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|c:\\users\\usuario\\source\\repos\\clase poo ii\\semana 2\\tr2_s2\\calcularoa_c_s2_tr1\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|c:\\users\\usuario\\source\\repos\\clase poo ii\\semana 2\\tr2_s2\\calcularoa_c_s2_tr1\\modelos\\guardar_numero_signo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:modelos\\guardar_numero_signo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|c:\\users\\usuario\\source\\repos\\clase poo ii\\semana 2\\tr2_s2\\calcularoa_c_s2_tr1\\modelos\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:modelos\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|c:\\users\\usuario\\source\\repos\\clase poo ii\\semana 2\\tr2_s2\\calcularoa_c_s2_tr1\\vista\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:vista\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|c:\\users\\usuario\\source\\repos\\clase poo ii\\semana 2\\tr2_s2\\calcularoa_c_s2_tr1\\vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50EF8090-AA25-4785-97F0-9EA395CBD1EC}|Calcularoa_C_S2_Tr1.csproj|solutionrelative:vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-02T20:02:17.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Guardar_numero_signo.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Modelos\\Guardar_numero_signo.cs",
+              "RelativeDocumentMoniker": "Modelos\\Guardar_numero_signo.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Modelos\\Guardar_numero_signo.cs",
+              "RelativeToolTip": "Modelos\\Guardar_numero_signo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T16:02:32.987Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-02T19:47:30.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Vista\\Form1.cs",
+              "RelativeDocumentMoniker": "Vista\\Form1.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Vista\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vista\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T19:34:28.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Vista\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Vista\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Vista\\Form1.Designer.cs",
+              "RelativeToolTip": "Vista\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T19:34:21.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculadora.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Modelos\\Calculadora.cs",
+              "RelativeDocumentMoniker": "Modelos\\Calculadora.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Modelos\\Calculadora.cs",
+              "RelativeToolTip": "Modelos\\Calculadora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T19:27:04.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Vista\\Form1.cs",
+              "RelativeDocumentMoniker": "Vista\\Form1.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\Clase POO II\\Semana 2\\Tr2_S2\\Calcularoa_C_S2_Tr1\\Vista\\Form1.cs",
+              "RelativeToolTip": "Vista\\Form1.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAIA+wG8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T18:26:29.789Z"
             }
           ]
         }
